@@ -58,8 +58,10 @@ This document lists all user inputs used in the application UI, including field 
    ```bash
    git clone https://github.com/yourusername/Credit_Card_Risk_Prediction.git
    cd Credit_Card_Risk_Prediction
-2.Install requirements
+2.**Install requirements**
+   ```bash
    pip install -r requirements.txt
-3.Running the application
+3.**Running the application**
+   ```bash
    streamlit run app.py
    
