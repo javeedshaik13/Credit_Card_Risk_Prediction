@@ -55,13 +55,14 @@ This document lists all user inputs used in the application UI, including field 
 ## 🛠️ How to Run Locally
 
 1. **Clone this repository**
-   ```bash
+   ```bash```
    git clone https://github.com/yourusername/Credit_Card_Risk_Prediction.git
    cd Credit_Card_Risk_Prediction
 2.**Install requirements**
-   ```bash
+   ```bash```
    pip install -r requirements.txt
-3.**Running the application**
-   ```bash
+3.**Run the application**
+   ```bash```
    streamlit run app.py
+
    
