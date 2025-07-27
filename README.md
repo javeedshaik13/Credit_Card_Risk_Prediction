@@ -60,17 +60,11 @@ Powered by machine learning, this app allows users to input key financial and de
 
 ## 🛠️ How to Run Locally
 
-1. Clone this repository:
+1. Clone this repository and install requirements:
    ```bash
    git clone https://github.com/javeedshaik13/Credit_Card_Risk_Prediction.git
    cd Credit_Card_Risk_Prediction
-Install requirements:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the application:
-
-bash
-Copy code
-streamlit run app.py
+   pip install -r requirements.txt
+3.**Run the application**:
+   ```bash
+    streamlit run app.py
