@@ -1,17 +1,22 @@
-# Credit_Card_Risk_Prediction
-A machine learning project to predict credit card default risk using customer data. Includes data preprocessing, model training (Logistic Regression, Random Forest, XGBoost), evaluation metrics, and an Streamlit app for real-time predictions
+# 📊 Shaik's Finance: Credit Card Risk Modelling
 
-
-
-# 📊 Shaik's Finance: Credit Risk Modelling
-
-Project Type: Web App (Machine Learning + Streamlit)
-
-A sleek, interactive web application built using **Streamlit** for predicting **credit default risk**. Powered by machine learning, this app allows users to input key financial and demographic details to assess the probability of loan default, get a credit score, and receive a credit rating.
+A sleek, interactive web application built using **Streamlit** for predicting **credit default risk**.  
+Powered by machine learning, this app allows users to input key financial and demographic details to assess the probability of loan default, get a credit score, and receive a credit rating.
 
 ---
 
 ![Credit risk modelling](assets/credit-risk-ui.png)
+
+---
+
+## 🧠 Project Summary
+
+**Project Type:** Web App (Machine Learning + Streamlit)  
+**Models Used:** Logistic Regression, Random Forest, XGBoost  
+**Backend:** Python, scikit-learn, joblib  
+**Frontend:** Streamlit (responsive on both desktop and mobile)
+
+---
 
 ## 🚀 Features
 
@@ -20,22 +25,21 @@ A sleek, interactive web application built using **Streamlit** for predicting **
 - 📈 Calculates **credit score (300–900)**
 - ✅ Gives a **rating**: Poor / Average / Good / Excellent
 - 🎯 Streamlit-based frontend with a visually appealing background
-- 🧠 ML Model powered by `sklearn` and `joblib`
+- 🧠 ML Model powered by `scikit-learn` and `joblib`
 
 ---
 
 ## 🧰 Technologies Used
 
-- Streamlit
 - Python
-- Scikit-learn
-- NumPy, Pandas
-- Joblib
+- Streamlit
+- scikit-learn
+- pandas, numpy
+- joblib
 
 ---
-# 📥 Input Fields for Credit Risk Modelling App
 
-This document lists all user inputs used in the application UI, including field names, input types, valid ranges, and their descriptions.
+## 📥 Input Fields
 
 | Field Name                 | Label in UI                             | Input Type     | Allowed Values / Range        | Description                                      |
 |---------------------------|------------------------------------------|----------------|-------------------------------|--------------------------------------------------|
@@ -52,17 +56,21 @@ This document lists all user inputs used in the application UI, including field 
 | `loan_purpose`            | Loan Purpose                            | selectbox      | Education / Home / Auto / Personal | Reason for the loan                      |
 | `loan_type`               | Loan Type                               | selectbox      | Secured / Unsecured           | Indicates if loan is backed by collateral       |
 
+---
+
 ## 🛠️ How to Run Locally
 
-1. **Clone this repository**
-   ```bash```
-   git clone https://github.com/yourusername/Credit_Card_Risk_Prediction.git
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/javeedshaik13/Credit_Card_Risk_Prediction.git
    cd Credit_Card_Risk_Prediction
-2.**Install requirements**
-   ```bash```
-   pip install -r requirements.txt
-3.**Run the application**
-   ```bash```
-   streamlit run app.py
+Install requirements:
 
-   
+bash
+Copy code
+pip install -r requirements.txt
+Run the application:
+
+bash
+Copy code
+streamlit run app.py
