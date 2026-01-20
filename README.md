@@ -67,4 +67,4 @@ Powered by machine learning, this app allows users to input key financial and de
    pip install -r requirements.txt
 3.**Run the application**:
    ```bash
-    streamlit run app.py
+    streamlit run main.py
